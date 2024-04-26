@@ -14,7 +14,7 @@ axios.interceptors.request.use(
 );
 
 const api = axios.create({
-  baseURL: "https://api.render.com/deploy/srv-coli2dq1hbls738v8rk0?key=GMxe32Y_5m0",
+  baseURL: "https://paywise-backend-3-vvro.onrender.com/users",
   timeout: 10000,
   headers: { "Content-Type": "application/json" },
 });
