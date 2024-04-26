@@ -1,0 +1,139 @@
+.container-inform {
+    display: flex;
+    width: 1116px;
+    height: 268px;
+    margin-left: 100px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(172, 217, 197, 0.25));
+    background-color: #fff;
+    padding: 12px 23px;
+    flex-direction: column;
+
+}
+
+.details-header-client {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 24px 0;
+}
+
+.date-client {
+    color: var(--cinzas-cinza-2, #3F3F55);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 657px;
+
+    margin-bottom: 54px;
+}
+
+.btn-cancel {
+    all: unset;
+    box-sizing: border-box;
+    width: 248px;
+    height: 33px;
+    display: inline-flex;
+    padding: 4px 60px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 1px solid var(--cinzas-cinza-6, #DEDEE9);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-right: 60px;
+}
+
+
+.details-inf {
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+
+}
+
+.datails-title {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    margin-left: 105px;
+    gap: 8px;
+    flex-direction: column;
+
+
+}
+
+.inf-clients-title span {
+    color: var(--cinzas-cinza-2, #3F3F55);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.inf-clients-title strong {
+    color: var(--cinzas-cinza-2, #3F3F55);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.charge-details {
+    color: var(--cinzas-cinza-2, #3F3F55);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.btn-newcharge {
+    width: 252px;
+    height: 33px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--cinzas-cinza-6, #DEDEE9);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-right: 60px;
+}
+
+.inforName {
+    display: flex;
+    width: 233px;
+    gap: 16px;
+    margin-left: 100px;
+}
+
+.container-inform-charge {
+    display: flex;
+    width: 1116px;
+    /* height: 348px; */
+    margin-left: -20px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(172, 217, 197, 0.25));
+    background-color: #fff;
+    padding: 12px 23px;
+    flex-direction: column;
+
+}

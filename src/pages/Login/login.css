@@ -1,0 +1,56 @@
+.container-login {
+  display: flex;
+  justify-content: center;
+  min-width: 1440px;
+  height: 894px;
+  background-color: var(--cinza-8);
+}
+
+.content-left {
+  position: relative;
+  width: 482px;
+  height: 100%;
+}
+
+.content-left p {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 5px;
+
+  font-family: "Montserrat", "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+  color: var(--principal-verde);
+}
+
+.content-left img {
+  position: absolute;
+  top: 0;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 958px;
+}
+
+.content-right>form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 490px;
+  height: 600px;
+}
+
+.content-right>form>button {
+  margin-top: 40px;
+}
+
+.content-right>form>span {
+  margin-top: 8px;
+}

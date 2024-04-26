@@ -1,0 +1,23 @@
+.subHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 64px);
+  margin: 0 32px;
+  height: 94px;
+}
+
+.subHeader>.left {
+  display: flex;
+  align-items: center;
+}
+
+.subHeader>.left img {
+  width: 32px;
+  margin-right: 16px;
+}
+
+.subHeader>.right {
+  display: flex;
+  align-items: center;
+}

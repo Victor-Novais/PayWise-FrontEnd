@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  width: calc(100% - 64px);
+  height: 123px;
+  margin: 0 32px;
+  border-bottom: 1px solid var(--principal-verde);
+}

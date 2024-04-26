@@ -1,0 +1,29 @@
+.searchInputContainer {
+  width: 320px;
+  height: 40px;
+  position: relative;
+}
+
+.searchInput {
+  width: 292px;
+  height: 25px;
+  padding: 10px 14px;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  color: #667085;
+  background-color: #fff;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  width: 24px;
+  cursor: pointer;
+}

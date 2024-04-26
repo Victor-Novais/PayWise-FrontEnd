@@ -1,0 +1,7 @@
+.home {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 19px;
+  gap: 25px;
+}

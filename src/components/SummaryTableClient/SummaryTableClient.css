@@ -1,0 +1,82 @@
+.summaryTableClient {
+  width: 556px;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(172, 217, 197, 0.25));
+  background-color: #fff;
+  padding: 24px 32px;
+}
+
+.summaryTableClientHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.summaryTableClientHead h4 {
+  color: var(--cinza-2);
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.summaryTableClientHeadCount {
+  display: inline-flex;
+  padding: 0px 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.summaryTableClientHeadCount.paid {
+  background-color: var(--paid-bg);
+  color: #1fa7af;
+}
+
+.summaryTableClientHeadCount.overdue {
+  background-color: var(--overdue-bg);
+  color: #971d1d;
+}
+
+.summaryTableClientHeadCount.pending {
+  background-color: var(--pending-bg);
+  color: #c5a605;
+}
+
+.tableHeaderClient {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tableRowClient {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+
+}
+
+.tableCellClient {
+  display: flex;
+  width: 160px;
+
+  border-bottom: 1px solid #EFF0F6;
+  margin-bottom: 20px;
+}
+
+.summaryTableClientFooter {
+  text-align: center;
+}
+
+.summaryTableClientFooter a {
+  color: var(--principal-rosa);
+}

@@ -1,0 +1,44 @@
+.menu-modal-infoCharge {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -90px;
+    gap: 16px;
+}
+
+.iformChargep {
+    margin-bottom: 8px;
+}
+
+.chargeInfoContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: -140px;
+    gap: 24px;
+}
+
+.chargeInfo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chargeInfo p {
+    color: var(--cinzas-cinza-2, #3F3F55);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.chargeInfo span {
+    color: var(--cinzas-cinza-2, #3F3F55);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.subInfos {
+    display: flex;
+    gap: 146px
+}

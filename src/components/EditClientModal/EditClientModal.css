@@ -1,0 +1,22 @@
+.formEditClientModal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.EditClientModalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+}
+
+.AddClientModalHeader img {
+  height: 32px;
+}
+
+.inputClientModal {
+  width: 224px;
+}

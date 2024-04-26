@@ -1,0 +1,116 @@
+.TableClient {
+  width: 1116px;
+  height: 642px;
+  margin-left: 100px;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(172, 217, 197, 0.25));
+  background-color: #fff;
+  padding: 12px 23px;
+}
+
+.TableClientHead {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  width: 1030px;
+}
+
+.TableClientHead h1 {
+  width: 160px;
+  color: var(--cinzas-cinza-2, #3f3f55);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.08px;
+}
+
+.TableClientHead div {
+  display: flex;
+  width: 160px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.TableClientHead p {
+  width: 200px;
+  color: var(--cinzas-cinza-2, #3f3f55);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.08px;
+}
+
+.TableClientList {
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.TableClientList div {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.TableClientList img {
+  height: 45px;
+  width: 45px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.TableClientListText {
+  width: 140px;
+  color: var(--cinzas-cinza-3, #747488);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin-right: 42px;
+  letter-spacing: 0.07px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.TableClientList p,
+.TableClientHead p {
+  height: 100%;
+}
+
+.inadimplente {
+  display: flex;
+  padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: #FFEFEF;
+  color: #971D1D;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.em-dia {
+  display: flex;
+  width: 96px;
+  padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: #1FA7AF;
+  border-radius: 8px;
+  background: #EEF6F6;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

@@ -1,0 +1,86 @@
+.container-signup {
+  display: flex;
+  justify-content: center;
+  min-width: 1440px;
+  height: 894px;
+}
+
+.content-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 482px;
+  background-color: var(--cinza-7);
+}
+
+.content-left>div {
+  width: 360px;
+  align-items: start;
+  justify-content: center;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 958px;
+  background-color: var(--cinza-8);
+}
+
+.formSignUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 490px;
+  height: 600px;
+}
+
+.formSignUp span {
+  margin-top: 8px;
+}
+
+.formSignUpSuccess {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: #f0f0f5;
+}
+
+.formSignUpSuccess img {
+  width: 104px;
+  height: 104px;
+  margin-bottom: 24px;
+}
+
+.formSignUpSuccess>button {
+  margin-top: 40px;
+}
+
+.formSignUpSuccess span {
+  margin-top: 8px;
+}
+
+.stepView {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 270px;
+  height: 6px;
+}
+
+.stepView>span {
+  height: 6px;
+  width: 82px;
+  background-color: var(--cinza-6);
+  border-radius: 30px;
+}
+
+.stepView>span.active {
+  background-color: var(--principal-verde);
+}

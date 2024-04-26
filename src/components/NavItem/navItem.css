@@ -1,0 +1,29 @@
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 72px;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: var(--cinza-2);
+}
+
+.navItem:has(> a.active) {
+  border-right: 2px solid var(--principal-rosa);
+  margin-left: 2px;
+}
+
+.navItem a.active {
+  filter: brightness(0) saturate(100%) invert(25%) sepia(97%) saturate(7492%) hue-rotate(319deg) brightness(84%) contrast(105%);
+}
+
+.navItem:hover {
+  filter: brightness(0) saturate(100%) invert(25%) sepia(97%) saturate(7492%) hue-rotate(319deg) brightness(84%) contrast(105%);
+}

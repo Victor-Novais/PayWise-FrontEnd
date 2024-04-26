@@ -1,0 +1,43 @@
+.amountBalloon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 100px;
+  padding: 23px 40px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.amountBalloon>div {
+  margin-left: 53px;
+}
+
+.amountBalloon>div>h4 {
+  color: var(--cinza-2);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.amountBalloon>div>h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.amountBalloon img {
+  width: 33px;
+}
+
+.amountBalloon.paid {
+  background-color: var(--paid-bg);
+}
+
+.amountBalloon.overdue {
+  background-color: var(--overdue-bg);
+}
+
+.amountBalloon.pending {
+  background-color: var(--pending-bg);
+}

@@ -1,0 +1,81 @@
+.formEditChargeModal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.EditChargeModalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -100px;
+  gap: 16px;
+}
+
+.EditChargeModalHeader img {
+  height: 32px;
+}
+
+.inputChargeModal {
+  width: 224px;
+}
+
+.box-btns {
+  display: flex;
+  width: 450px;
+}
+
+.btn-cancel {
+  border-radius: 10px;
+  border: 1px solid var(--cinzas-cinza-6, #DEDEE9);
+  background: var(--cinzas-cinza-8, #F8F8F9);
+  color: var(--principais-verde-normal, #0E8750);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-aplicar {
+  width: 230px;
+  height: 34px;
+}
+
+.labelContainer {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+
+.labelText {
+  color: var(--cinzas-cinza-1, #343447);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.input-radio {
+  display: flex;
+  width: 400px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 10px;
+  background: var(--cinzas-cinza-7, #F0F0F5);
+
+  color: var(--cinzas-cinza-2, #3F3F55);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}

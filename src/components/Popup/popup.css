@@ -1,0 +1,56 @@
+.popup {
+  width: 80px;
+  margin: 0;
+  position: absolute;
+  top: 110px;
+  right: 43px;
+  text-align: center;
+  z-index: 999;
+}
+
+.popup:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.2);
+}
+
+.popup:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: absolute;
+  z-index: 998;
+  left: calc(139% - 10px);
+  top: -8px;
+}
+
+.popup-wrapper {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  right: -65px;
+  z-index: 998;
+}
+
+.popup-wrapper img {
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.popup-wrapper img:hover {
+  filter: brightness(0) saturate(100%) invert(25%) sepia(97%) saturate(7492%) hue-rotate(319deg) brightness(84%) contrast(105%);
+}

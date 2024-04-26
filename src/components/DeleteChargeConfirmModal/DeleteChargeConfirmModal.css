@@ -1,0 +1,12 @@
+.testes-btns {
+    display: flex;
+    width: 450px;
+}
+
+.btn-aplicar {
+    width: 200px;
+}
+
+.warning {
+    margin-left: 120px;
+}

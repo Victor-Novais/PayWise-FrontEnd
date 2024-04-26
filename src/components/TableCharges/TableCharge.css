@@ -1,0 +1,139 @@
+.TableCharge {
+  width: 1116px;
+  min-height: 642px;
+  margin-left: 100px;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(172, 217, 197, 0.25));
+  background-color: #fff;
+  padding: 12px 23px;
+}
+
+.TableChargeHead {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  width: 1030px;
+}
+
+.TableChargeHead h1 {
+  width: 160px;
+  color: var(--cinzas-cinza-2, #3f3f55);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.08px;
+}
+
+.TableChargeHead div {
+  display: flex;
+  width: 160px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.TablechargeList {
+  display: flex;
+
+  width: 1173px;
+  text-align: center;
+}
+
+.TablechargeList div {
+  width: 160px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.TableClientList img {
+  height: 45px;
+  width: 45px;
+  margin-right: 140px;
+}
+
+.tableIcons {
+  gap: 24px;
+  margin-left: 65px;
+  cursor: pointer;
+}
+
+
+
+.dividerHorizontal {
+  width: 1109px;
+  border: 1px #eff0f6 solid;
+}
+
+.Paga {
+  font-family: "Nunito Sans";
+  display: flex;
+  padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: #eef6f6;
+  color: #1fa7af;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Pendente {
+  display: flex;
+  padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: #fcf6dc;
+
+  color: var(--apoio-amarelo-normal, #c5a605);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Vencida {
+  display: flex;
+  padding: 0px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: #ffefef;
+  color: #971d1d;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.divFont {
+  color: var(--cinzas-cinza-3, #747488);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 285.714% */
+  letter-spacing: 0.07px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.error-icon {
+  margin-top: -80px;
+  margin-left: 120px;
+}
+
+.loading {
+  margin-top: 200px;
+  margin-left: 500px;
+  color: color="#DA0175";
+}

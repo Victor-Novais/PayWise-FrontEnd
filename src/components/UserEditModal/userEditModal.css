@@ -1,0 +1,20 @@
+.formUserEditModal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.userEditModalSucess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 400px;
+}
+
+.userEditModalSucess img {
+  width: 104px;
+  height: 104px;
+}
