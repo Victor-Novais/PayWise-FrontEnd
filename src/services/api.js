@@ -14,7 +14,7 @@ axios.interceptors.request.use(
 );
 
 const api = axios.create({
-  baseURL: "https://api.devocupados.gledsonlp.dev/v1",
+  baseURL: "https://paywise-backend-3-vvro.onrender.com",
   timeout: 10000,
   headers: { "Content-Type": "application/json" },
 });
